@@ -4,9 +4,9 @@
 Если из элементов обоих списков можно собрать всю коллекцию,
 вывести "ДА", иначе "НЕТ". '''
 
-lst1 = set(map(int, input().split()))
-lst2 = set(map(int, input().split()))
+st1 = set(map(int, input().split()))
+st2 = set(map(int, input().split()))
 
-lst1 |= lst2
+st1 |= st2
 
-print(['НЕТ', 'ДА'][lst1 == set(range(1,21))])
+print(['НЕТ', 'ДА'][st1 == set(range(1,21))])

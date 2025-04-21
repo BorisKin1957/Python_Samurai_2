@@ -1,8 +1,8 @@
 
 
-lst1 = set(map(int, input().split()))
-lst2 = set(map(int, input().split()))
+st1 = set(map(int, input().split()))
+st2 = set(map(int, input().split()))
 
-lst1 -= lst2
+st1 -= st2
 
-print(*sorted(lst1))
+print(*sorted(st1))
